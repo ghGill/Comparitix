@@ -522,6 +522,7 @@ body {
 .cell.draggable, .cell .draggable {
     background-color: white;
     cursor: grabbing;
+    touch-action: none;
 }
 
 .cell .content {

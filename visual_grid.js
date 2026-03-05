@@ -195,6 +195,8 @@ export class VisualGrid extends Grid {
         this.partsGrid().appendChild(partElm);
 
         partElm.addEventListener("pointerdown", (e) => {
+            e.preventDefault();
+            
             if (this.isDragging) return;
 
             // cehck if we drag a located item
