@@ -531,11 +531,15 @@ body {
     user-select: none;
     font-weight: 700;
     transform: scaleX(0.7);
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cell .cell-rel .content {
-    width: 30%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
 }
 
 .cell.cell-num {
