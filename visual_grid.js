@@ -161,6 +161,9 @@ export class VisualGrid extends Grid {
     }
 
     locateParts() {
+        if(!this.partsElements.length)
+            return;
+        
         this.shuffleParts();
 
         let n = 0;

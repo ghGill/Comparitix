@@ -465,6 +465,7 @@ body {
     border-radius: 24px;
     padding: 4px 4px;
     background-color: black;
+    user-select: none;
 }
 
 .screen.board-scr .grid-container {
